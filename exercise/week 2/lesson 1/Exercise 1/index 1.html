@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index 1</title>
+</head>
+<body>
+ <form id="orderForm">
+<h1>Thanh Toán</h1>
+		 <label for="fullname"> Tên đầy đủ</label>	
+		 <input name="Họ và Tên" type="text" placeholder="Nhập tên đầy đủ người mua hàng " required="" >
+		 <br>
+		 <label for="Password*">Password</label> 
+		 <input  name="Mật Khẩu" type="Password" placeholder=" Nhập password" required="" ></input>
+		 <br>
+		 <label for="Email">Email</label>
+		 <input name="Email" type="email" placeholder="Nhập email" required="" >
+		 <br>
+		 <label for="Ngày sinh">Ngày sinh</label>		 
+		 <input  name="Ngày/tháng/năm" type="date" placeholder="mm/da/yyyy" required="" >
+		 <br>
+		 <label for="Mặt hàng mua">Mặt hàng mua</label> 
+		 <input list="browsers" name="Mặt hàng mua">
+				<datalist id="browsers">
+				<option value="shoes">
+				<option value="socks">
+				<option value="shirt">
+				<option value="sandals">
+				<option value="trosers">
+				</datalist>
+		 <br>
+		<label for="Số lượng mua">Số lượng mua</label>		 
+		 <input  name="Số lượng mua" type="number" min="1" max="5">
+		 <br>
+		 <label for="Bán kính mua">Bán kính mua</label>		 
+		 <input  name="Bán kính mua" type="Range" min="10" max="20">
+		 <br>	
+		<input type="submit" value="Đăng kí"> </input>		
+ </form>
+</body>
+</html>		 
+	
