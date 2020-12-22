@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <title>exesice 1</title>
 </head>
 <style>
- body {
+body {
  font-family: Verdana;
 	background-repeat: repeat-y;
     background-color: #f18973;
@@ -16,21 +15,36 @@
   background: pink;
   font-size: 30px;
   width :75%;
+  margin: auto;
   }
 li.ex2 {
-border-style: solid;
-display: inline;
-list-style-type: none;
-border: 1px solid black;
-background: yellow;
-color:pink;
+	border-style: solid;
+	display: inline;
+	list-style-type: none;
+	border: 1px solid black;
+	background: yellow;
+	color:pink;
 }
 div  { text-align: center; }
-p.dotted {
-background:cornsilk;
-margin-top;
- text-align: center;
-border-style: dotted;
+.dotted {
+	background:cornsilk;
+	margin-top;
+	text-align: center;
+	border-style: dotted;
+	background-color:yellow;
+}
+.para{
+	margin: auto;
+	border: 4px dotted black;
+	text-align: justify;
+	width: 50%;
+	background-color: cornsilk;
+	margin-top: 20px;
+}
+button{
+	background-color:blue;
+	display: block;
+    margin: 5px;
 }
 </style>
 <body>
@@ -49,10 +63,10 @@ border-style: dotted;
 <p> I created this page in a <a href="https://continuingstudies.stanford.edu/">
   <img src="http://web.stanford.edu/group/csp/cs21/images/cs.gif" alt="HTML tutorial">
   <a href="http://continuingstudies.stanford.edu/">Continuing studies</a> class at<a href="http://www.stanford.edu/">Stanford university</a>.<p>
-	<div>
-     <p style="background-color:yellow;"><img src="http://web.stanford.edu/group/csp/cs21/images/su.gif"</p> 
+	<div class="dotted">
+     <img src="http://web.stanford.edu/group/csp/cs21/images/su.gif"</p> 
 	</div> 	
-  <p class="dotted"> 
+	<div class="para">
   <p>The website for my class is</p>
  <a href="http://web.stamford.edu/group/csp/cs21/.">http://web.stamford.edu/group/csp/cs21/.</a>
  <br>
@@ -67,9 +81,17 @@ border-style: dotted;
 		subsequent pages with content, links, and graphics on<br>
 		each page -- four pages in all)<br>
 				The website is due Friday, March 28th</li>
- </ol> 
+ </ol>
+ <div style="background-color: white;background-color: white; display: inline-block; padding: 5px;">
+	<button type="button" >Stanford</button>
+	<button type="button" >Berkeley</button>
+	<button type="button" >Harvard</button>
+	<button type="button" >Yale   </button>
+</div>	
+ </div>
  </p>
-	<p> Last Update: TODAY'S DATE </P>
-	<p> Copyright 2014, <a href="http://www.stanford.edu/group/csp/cs21/.">STUDENT</a></P>
+ <footer style="font-size:"12px" >
+	<p> Last Update: TODAY'S DATE<br>Copyright 2014, <a href="http://www.stanford.edu/group/csp/cs21/.">STUDENT</a></P>
+</footer>
 </body>
 </html>
