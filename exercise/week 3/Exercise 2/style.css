@@ -1,0 +1,19 @@
+.center{
+	text-align:center;
+}
+body{
+	font-family: Open-Sans;
+}
+.picture1{
+	text-align: left;
+	color:  rgb(61, 153, 145);
+	
+}
+.picture2{
+	text-align: right;
+	color: rgb(61, 153, 145);
+}
+h2 {
+	letter-spacing: 2px;
+}
+
