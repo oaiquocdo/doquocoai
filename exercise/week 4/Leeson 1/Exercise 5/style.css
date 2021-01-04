@@ -1,0 +1,17 @@
+.bgr{
+	border-style: solid;
+	color: blue;
+	padding: 20px;
+}
+.right{
+	width: 900px;
+	height: 400px;
+	float: right;
+}
+.form-control{
+	padding: 6px 12px;
+	border: radio 1px;
+}
+.g{
+	color: black;
+}

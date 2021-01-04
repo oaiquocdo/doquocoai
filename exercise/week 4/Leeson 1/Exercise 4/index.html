@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index4</title>
+	<link rel="stylesheet" href ="style.css">
+</head>
+<body>
+	<h1>Đăng kí thành viên</h1>
+	<p>Để đăng kí thành viên, bạn cần phải khai báo tất cả các ô trống dưới đây</p>
+		<form class="form-control">
+			<input type="text" class="form-control  input" placeholder="Họ và tên đệm" value="" name="last_name" maxlength="100">
+			<br>
+			<br>
+			<input type="text" class="form-control required input" placeholder="Tên" value="" name="first_name" maxlength="100">
+			<br>
+			<br>
+			<input type="text" class="required form-control" placeholder="Tên đăng nhập" value="" name="username" maxlength="20">
+			<br>
+			<br>
+			<input type="email" class="required form-control" placeholder="Email" value="" name="email" maxlength="100">
+			<br>
+			<br>
+			<input type="password" autocomplete="off" class="password required form-control" placeholder="Mật khẩu" value="" name="password" maxlength="32">
+			<br>
+			<br>
+			<input type="password" autocomplete="off" class="re-password required form-control" placeholder="Lặp lại mật khẩu" value="" name="re_password" maxlength="32">
+			<br>
+			<br>
+			<label class="col-sm-8 control-label  input" title="">Giới tính</label>
+				<div class="form-group clearfix radio-box  input" data-mess="">
+					<label class="radio-box"> <input type="radio" name="gender" value="N" class="input" onclick="validErrorHidden(this,5);"> N/A </label>
+					<label class="radio-box"> <input type="radio" name="gender" value="M" class="input" onclick="validErrorHidden(this,5);" checked="checked"> Nam </label>
+					<label class="radio-box"> <input type="radio" name="gender" value="F" class="input" onclick="validErrorHidden(this,5);"> Nữ </label>
+				</div>
+			<input type="text" class="form-control datepicker required input" data-provide="datepicker" placeholder="Ngày tháng năm sinh" value="" name="birthday">
+			<br>
+			<br>
+			<textarea class="form-control  input" placeholder="Chữ ký" name="sig" onkeypress="validErrorHidden(this);" data-mess=""></textarea>
+			<br>
+			<br>
+			<input type="text" class="form-control required input" placeholder="Câu hỏi bảo mật" value="" name="question" maxlength="255">
+			<br>
+			<br>
+			<input type="text" class="form-control required input" placeholder="Trả lời câu hỏi" value="" name="answer" maxlength="255">
+			<br>
+			<br>
+				<div class="form-group text-center check-box required" data-mess="" >
+				<input type="checkbox" name="agreecheck" value="1" class="fix-box" onclick="validErrorHidden(this,3);">Tôi đồng ý với <a onclick="usageTermsShow('Quy định đăng ký thành viên');" href="javascript:void(0);"><span class="btn btn-default btn-xs">Quy định đăng ký thành viên</span></a>
+				<br>
+				<br>
+				<input type="reset"  class="btn btn-default" value="Thiết lập lại"     >
+				<input type="submit" class="btn btn-primary" value="Đăng ký thành viên">
+				</div>
+	</form>			
+</body>
+</html> 

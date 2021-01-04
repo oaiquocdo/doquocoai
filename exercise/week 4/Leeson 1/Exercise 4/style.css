@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+}
+div{
+	text-align: center;
+}
+.form-control{
+	width: 99%;
+	padding: 6px 12px;
+	border: radio 1px;
+	
+}
+body
+{
+	background: #E4EDED;
+}

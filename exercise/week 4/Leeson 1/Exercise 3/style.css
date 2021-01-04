@@ -2,3 +2,23 @@ body{
 background: black;
 color: white;
 }
+.header{
+	margin: auto;
+	padding: 20px;
+	position: absolute;
+	top: 10%;
+	right: 0;
+	transform: translateY(-50%);
+	padding-right: inherit;
+}
+.footer{
+	padding: 75px;
+	background-color: #1f1f1f;
+	line-height: 16px;
+}
+.footer h1{
+	float: left;
+}
+.footer p{
+	float: right;
+}
