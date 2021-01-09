@@ -1,0 +1,25 @@
+li{
+		margin-left: 10px;
+		}
+		body{
+			font-size: 20px;
+			font-family: Area;
+			background-color: #666666;
+		}
+		p{
+			color: white;
+			margin-left: 35px;
+		}
+		img{
+			margin-left: 35px;
+		}
+		video{
+			margin-left: 35px;
+		}
+		table{
+			margin-left: 25px;
+			color: white;
+		}
+		#collapse{
+			margin-left: 200px;
+		}
